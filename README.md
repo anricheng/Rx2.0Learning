@@ -135,14 +135,23 @@ onComplete
 **Result:**
 
 doOnSubscribe
+
 doOnLifeCycle:false
+
 doOnNext
+
 doOnEach
+
 收到的消息是：hello world
+
 doAfterNext
+
 doOnComplete
+
 doOnEach-onComplete
+
 doFinally
+
 doAfterTerminate
 
 -------
