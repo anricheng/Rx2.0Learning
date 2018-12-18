@@ -1,5 +1,5 @@
 # Rx2.0Learning
-##1. subscribe 的几个重载的方法：
+## 1. subscribe 的几个重载的方法：
 * subscribe(onNext);
 * subscribe(onNext,onError)
 * subscribe(onNext,onError,onComplete)
@@ -54,7 +54,8 @@ onComplete
 1. 在Rxjava2 中不在支持subscriber,必须使用observer;
 2. Observable,Observer,subscribe 三者缺一不可，只有使用了subscribe方法，Observable才会开始发送数据；
 
-##2.几种Observable的比较
+## 2.几种Observable的比较
+
 | 类型 | 描述 |
 | --- | --- |
 | Observable | 能够发送0或n个数据，并以成功或者失败事件终止 |
