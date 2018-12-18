@@ -30,12 +30,17 @@
                         }
                     });
 ```
->onSubscribe
->hello world
->onComplete
 
+***The Result:***
 
-    ###Consumer 与 Action的区别如下：
+------------
+onSubscribe
+hello world
+onComplete
+
+-----------
+
+### Consumer 与 Action的区别如下：
     1. Action没有参数类型
     2. Consumer 有单一的参数
 
